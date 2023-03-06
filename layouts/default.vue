@@ -9,7 +9,7 @@
     <footer>
       <div class="inner">
         <div class="left">
-          &copy; Alex Guthrie 2022
+          &copy; Peter Gorman & Alex Guthrie 2023
         </div>
         <div class="right">
           <SocialLinks></SocialLinks>
