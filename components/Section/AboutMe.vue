@@ -1,18 +1,20 @@
 <template>
   <BaseArea title="My Skills">
     <ul>
-      <li>Unity</li>
-      <li>Unreal</li>
       <li>C#</li>
-      <li>C++</li>
-      <li>SCSS</li>
-      <li>TypeScript</li>
+      <li>Lua</li>
+      <li>Java</li>
       <li>JavaScript</li>
+      <li>HTML/(S)CSS</li>
+      <li>Git</li>
+      <li>Unity</li>
       <li>Docker</li>
+      <li>PostgreSQL</li>
       <li>Visual Studio</li>
       <li>Visual Studio Code</li>
-      <li>PostgreSQL</li>
-      <li>Vue</li>
+      <li>JetBrains Rider</li>
+      <li>Windows</li>
+      <li>Linux</li>
     </ul>
 
     <BaseCard>
