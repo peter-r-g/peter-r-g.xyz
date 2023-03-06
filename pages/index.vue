@@ -8,25 +8,6 @@
   </main>
 </template>
 
-<script>
-  export default {
-    async mounted() {
-      const feed = await this.$axios.$get('https://blog.gu3.me/feed/rss.xml')
-      let Parser = require('rss-parser');
-      let parser = new Parser();
-      let parsed = await parser.parseString(feed);
-      this.parsed = parsed;
-    },
-    data: function() {
-      return {
-        parsed: {
-          items: []
-        }
-      }
-    }
-  }
-</script>
-
 <style lang="scss" scoped>
 @import "~assets/variables.scss";
 

@@ -8,9 +8,6 @@
         <li>
           <nuxt-link to="/projects">Projects</nuxt-link>
         </li>
-        <li>
-          <a href="https://blog.gu3.me" target="_blank">Blog <fa :icon="faUpRightFromSquare" /></a>
-        </li>
       </ul>
     </div>
   </nav>
