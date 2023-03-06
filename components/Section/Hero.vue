@@ -4,14 +4,14 @@
 
         <div class="hero-image"></div>
 
-        <h1>Alex Guthrie</h1>
+        <h1>Peter Gorman</h1>
         <social-links></social-links>
 
         <hr/>
 
-        <p>👋 Hey! I'm Alex.</p>
-        <p>I'm a Computer Science student and software engineer from the United Kingdom, <wbr>
-          interested in reverse engineering, computer graphics, and game development.</p>
+        <p>👋 Hey! I'm Peter.</p>
+        <p>I am a software engineer from the United Kingdom, now living in Canada! <wbr>
+          I work on open source projects in the game development space.</p>
         <hr/>
 
     </article>
@@ -38,7 +38,7 @@ export default {
   align-items: center;
   justify-content: center;
   position: relative;
-  
+
   margin: 0 auto;
   padding: 20px 1rem;
 
