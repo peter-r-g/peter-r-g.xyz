@@ -1,6 +1,6 @@
 # gu3.me
 
-This repository contains the code for [my personal website](https://alex.gu3.me/), hosted on [Netlify](https://www.netlify.com/), and written in [JavaScript](https://www.javascript.com/) using the [Nuxt.js](https://nuxtjs.org/) framework.
+This repository contains the code for [my personal website](https://peter-r-g.xyz/), hosted on [Netlify](https://www.netlify.com/), and written in [JavaScript](https://www.javascript.com/) using the [Nuxt.js](https://nuxtjs.org/) framework.
 ## Setup
 
 ```bash
