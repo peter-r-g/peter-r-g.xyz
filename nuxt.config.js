@@ -4,22 +4,22 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Alex Guthrie',
+    title: 'Peter Gorman',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Alex Guthrie: Computer Science student and software developer.' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'Alex Guthrie' },
-      { hid: 'og:locale', property: 'og:locale', content: 'en_GB' },
+      { hid: 'description', name: 'description', content: 'Peter Gorman: Software Engineer' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Peter Gorman' },
+      { hid: 'og:locale', property: 'og:locale', content: 'en_CA' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'http://gu3.me/' },
-      { hid: 'og:image', property: 'og:image', content: 'http://gu3.me/robot.png' },
+      { hid: 'og:url', property: 'og:url', content: 'http://peter-r-g.xyz' },
+      { hid: 'og:image', property: 'og:image', content: 'http://peter-r-g.xyz/robot.png' },
       { hid: "twitter:card", name: "twitter:card", content: "summary" },
       { hid: "twitter:domain", property: "twitter:domain", content: "" },
-      { hid: "twitter:url", property: "twitter:url", content: "http://gu3.me/" },
-      { hid: "twitter:title", name: "twitter:title", content: "Alex Guthrie" },
-      { hid: "twitter:description", name: "twitter:description", content: "Alex Guthrie: Computer Science student and software developer." },
-      { hid: "twitter:image", name: "twitter:image", content: "http://gu3.me/robot.png" }
+      { hid: "twitter:url", property: "twitter:url", content: "http://peter-r-g.xyz/" },
+      { hid: "twitter:title", name: "twitter:title", content: "Peter Gorman" },
+      { hid: "twitter:description", name: "twitter:description", content: "Peter Gorman: Software Engineer and Game Engine Developer." },
+      { hid: "twitter:image", name: "twitter:image", content: "http://peter-r-g.xyz/robot.png" }
     ],
     link: [
       { rel: 'shortcut icon', type: 'image/png', href: '/robot.png' },
@@ -66,9 +66,9 @@ export default {
   },
 
   proxy: {
-    '/blog': { 
+    '/blog': {
       target: 'https://blog.gu3.me/',
-      pathRewrite: {'^/blog/': ''} 
+      pathRewrite: {'^/blog/': ''}
     }
   },
 
