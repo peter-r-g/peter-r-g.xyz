@@ -10,9 +10,9 @@
     "buildStart": "nuxt build && nuxt generate && nuxt start"
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
+    "@nuxt/content": "^2.4.3",
     "@nuxtjs/axios": "^5.13.1",
-    "@nuxtjs/color-mode": "^2.0.3",
+    "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/proxy": "^2.1.0",
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
@@ -24,8 +24,8 @@
     "vue-custom-scrollbar": "^1.4.0"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "6.0",
-    "@fortawesome/free-solid-svg-icons": "6.0",
+    "@fortawesome/free-brands-svg-icons": "6.3.0",
+    "@fortawesome/free-solid-svg-icons": "6.3.0",
     "@nuxtjs/fontawesome": "^1.1.2"
   }
 }
