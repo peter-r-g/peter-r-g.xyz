@@ -1,59 +1,50 @@
 export const projects = [
   {
     title: "Mocha",
-    role: "Everything",
+    role: "Programmer: C# hot loading, editor tooling",
     link: "https://github.com/xezno/mocha",
-    blogLink: "https://blog.gu3.me/mocha",
     madeIn: "C# / C++ / Vulkan",
     image: "/projects/Mocha.png",
     description: "A game engine written in C++ with C# interop."
   },
   {
-    title: "Alex's Instagib",
-    role: "Everything",
-    link: "https://github.com/xezno/sbox-instagib",
-    madeIn: "C# / s&box",
-    image: "/projects/Instagib.png",
-    description: "A classic arena first-person-shooter."
+    title: "Grubs",
+    role: "Programmer: Core game loop, weapons, networking",
+    link: "https://github.com/apetavern/sbox-grubs",
+    madeIn: "C# / S&box",
+    image: "/projects/Grubs.png",
+    description: "A worms-inspired artillery game with randomly generated levels."
   },
   {
-    title: "Tin",
-    role: "Programmer: Backend",
-    link: "https://github.com/The-Tin-Foil-Hat-Society/tin",
-    madeIn: "C",
-    image: "/projects/Tin.png",
-    description: "A programming language written in C with support for RISC-V."
+    title: "Tamewater",
+    role: "Lead Developer & Community Manager",
+    link: "https://github.com/tamewater",
+    madeIn: "Garry's Mod, Minecraft",
+    image: "/projects/Tamewater.jpg",
+    description: "A gaming community based around Garry's Mod."
   },
   {
-    title: "OpenTPW",
+    title: "NetBolt",
     role: "Everything",
-    link: "https://github.com/ThemeParkWorld/OpenTPW",
-    madeIn: "C# / Veldrid",
-    image: "/projects/OpenTPW.png",
-    description: "A re-implementation of Bullfrog's 1999 game 'Theme Park World'."
+    link: "https://github.com/Sbox-NetBolt",
+    madeIn: "C# / S&box",
+    image: "/projects/NetBolt.png",
+    description: "A custom server and networking structure for S&box clients to connect to and play games."
+  },
+  {
+    title: "SandScript",
+    role: "Everything",
+    link: "https://github.com/SandScript",
+    madeIn: "C#",
+    image: "/projects/SandScript.png",
+    description: "A custom server and networking structure for S&box clients to connect to and play games."
   },
   {
     title: "Cold Open",
-    role: "Programmer: AI, UI",
+    role: "Programmer: Gameplay systems",
     link: "https://github.com/apetavern/horror-jam",
-    madeIn: "s&box",
+    madeIn: "C# / S&box",
     image: "/projects/Cold Open.png",
     description: "A game made in ~2 weeks for the Gvarados Halloween Jam 2022, winning 1st place."
-  },
-  {
-    title: "FortWars",
-    role: "Project Lead, Programmer",
-    link: "https://github.com/apetavern/sbox-fortwars",
-    madeIn: "C# / s&box",
-    image: "/projects/Fortwars.png",
-    description: "A spiritual successor to the classic 'SourceForts' Source mod."
-  },
-  {
-    title: "Frost Fight",
-    role: "Programmer: UI",
-    link: "https://github.com/apetavern/sbox-frostfight",
-    madeIn: "C# / s&box",
-    image: "/projects/Frost Fight.png",
-    description: "A game made in ~1 week for the Jambox Winter Jam 2021, winning 2nd place."
-  },
+  }
 ];
