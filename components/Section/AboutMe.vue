@@ -21,20 +21,8 @@
       <table>
         <tr>
           <td>
-            <h4>2D and 3D game development</h4>
-            Experienced in writing C# code for use in game engines (such as s&box and Unity) and as desktop applications
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h4>Desktop application development using C++ and C#</h4>
-            Experienced in writing efficient native code for desktop applications
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h4>Responsive web design using HTML, CSS, and JavaScript</h4>
-            Skilled in creating uniquely styled web apps for mobile and desktop platforms
+            <h4>Game Development</h4>
+            Experienced in writing C# code in game engines and desktop applications.
           </td>
         </tr>
         <tr>
