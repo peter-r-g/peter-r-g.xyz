@@ -13,18 +13,6 @@
   </nav>
 </template>
 
-<script>
-import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-
-export default {
-  data: function () {
-    return {
-      faUpRightFromSquare
-    }
-  }
-}
-</script>
-
 <style lang="scss" scoped>
 @import "~assets/variables.scss";
 
