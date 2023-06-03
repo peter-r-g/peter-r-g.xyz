@@ -37,7 +37,7 @@ export const projects = [
     link: "https://github.com/SandScript",
     madeIn: "C#",
     image: "/projects/SandScript.png",
-    description: "A custom server and networking structure for S&box clients to connect to and play games."
+    description: "A statically typed interpreted language hosted by CSharp."
   },
   {
     title: "Cold Open",
