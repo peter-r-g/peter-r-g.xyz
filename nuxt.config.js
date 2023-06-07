@@ -71,6 +71,11 @@ export default {
       pathRewrite: {'^/blog/': ''}
     }
   },
+  modules: [
+    ['nuxt-highlightjs', {
+      style: 'vs2015'
+    }]
+  ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
