@@ -65,12 +65,6 @@ export default {
     proxy: true // Can be also an object with default options
   },
 
-  proxy: {
-    '/blog': {
-      target: 'https://blog.gu3.me/',
-      pathRewrite: {'^/blog/': ''}
-    }
-  },
   modules: [
     ['nuxt-highlightjs', {
       style: 'vs2015'
