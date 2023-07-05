@@ -83,8 +83,6 @@ body {
   font-family: $font-sans;
   font-weight: 400;
 
-  height: 100vh;
-
   overflow-y: auto;
 
   padding: $padding-safe;
