@@ -21,7 +21,7 @@
         <a href="#mocha" class="title">Mocha</a>
         <h4>Made by Alex Guthrie</h4>
         <div></div>
-        <img class="icon-img" src="projects/Mocha Logo.webp"/>
+        <img class="icon-img" src="/projects/Mocha Logo.webp"/>
         <p>
           Mocha is a C++ engine with a C# interop created by Alex Guthrie.
           It uses a Vulkan renderer, html/css UI, Jolt physics, PBR, an ImGui editor, and a C# scripting environment.
@@ -64,7 +64,7 @@
           My first test was to download the NuGet package used to create this and cycle through all of its dependencies:
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Mocha NuGet Test.mp4" type="video/mp4">
+          <source src="/videos/Mocha NuGet Test.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
         <p>
@@ -73,7 +73,7 @@
           With that done we now have NuGet support for all to use:
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Mocha NuGet Complete.mp4" type="video/mp4">
+          <source src="/videos/Mocha NuGet Complete.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -88,7 +88,7 @@
           This workspace allows you to apply changed files to a compilation and can compile only the changed files which greatly increases performance.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Mocha Incremental Compilation.mp4" type="video/mp4">
+          <source src="/videos/Mocha Incremental Compilation.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -97,7 +97,7 @@
         <a href="#latte" class="title">Latte</a>
         <h4>Made by Me</h4>
         <div></div>
-        <img class="icon-img" src="projects/Latte.jpg"/>
+        <img class="icon-img" src="/projects/Latte.jpg"/>
         <p>
           Latte is a 100% C# engine made by myself
           It uses a Vulkan renderer, a robust hotloading layer, and scripting also in C#.
@@ -120,7 +120,7 @@
           In my test I was able to install my windowing projects thirty-two NuGet dependencies concurrently without any issue.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Latte Hotloading1.mp4" type="video/mp4">
+          <source src="/videos/Latte Hotloading1.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
         <p>
@@ -133,7 +133,7 @@
           All of this can be handled automatically so you do not have to think about loading anything other than the assembly you want.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Latte Hotloading2.mp4" type="video/mp4">
+          <source src="/videos/Latte Hotloading2.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -142,7 +142,7 @@
         <a href="#grubs" class="title">Grubs</a>
         <h4>Made by Ape Tavern</h4>
         <div></div>
-        <img class="icon-img" src="projects/Grubs.png"/>
+        <img class="icon-img" src="/projects/Grubs.png"/>
         <p>
           Grubs is a worms inspired turn-based artillery shooter.
           I joined Ape Tavern and Grubs' development just after they decided to start the project from scratch.
@@ -164,7 +164,7 @@
           Having your time to move around, picking your weapon, utilizing it, and running for the hills.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Grubs Game Loop1.mp4" type="video/mp4">
+          <source src="/videos/Grubs Game Loop1.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
         <p>
@@ -174,7 +174,7 @@
           It was also implemented in a way that we knew what kind of damage was applied so that we could make use of it in the <a href="#grubsdeaths" class="reference">grub death quips</a>.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Grubs Game Loop2.mp4" type="video/mp4">
+          <source src="/videos/Grubs Game Loop2.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -240,7 +240,7 @@ public struct DeathReason
         <a href="#coldopen" class="title">Cold Open</a>
         <h4>Made by Ape Tavern</h4>
         <div></div>
-        <img class="icon-img" src="projects/Cold Open.png"/>
+        <img class="icon-img" src="/projects/Cold Open.png"/>
         <p>
           Cold Open is Ape Tavern's submission to the 2022 horror game jam hosted by Gvardos.
           The game is about a sole survivor on a ship that wakes up from cryosleep to discover his situation.
@@ -258,7 +258,7 @@ public struct DeathReason
           This camera can also rotate so that the player can look out for the monster coming after them.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Cold Open Interaction.mp4" type="video/mp4">
+          <source src="/videos/Cold Open Interaction.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
         <p>
@@ -266,7 +266,7 @@ public struct DeathReason
           We could also add a camera system that you could interact with to view the map.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Cold Open Cameras.mp4" type="video/mp4">
+          <source src="/videos/Cold Open Cameras.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -275,7 +275,7 @@ public struct DeathReason
         <a href="#parkourpainters" class="title">Parkour Painters</a>
         <h4>Made by Ape Tavern</h4>
         <div></div>
-        <img class="icon-img" src="projects/Parkour Painters.png"/>
+        <img class="icon-img" src="/projects/Parkour Painters.png"/>
         <p>
           Parkour Painters is Ape Tavern's submission to the 2023 gang jam hosted by Three Thieves.
           The game is a multiplayer team versus team parkour vandalizing game taking inspiration from <a href="https://en.wikipedia.org/wiki/Jet_Set_Radio" class="reference">Jet Set Radio</a>.
@@ -301,7 +301,7 @@ public struct DeathReason
           The game can also be played on S&box with the identifier "gooman.menu_pong"
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Menu Pong.mp4" type="video/mp4">
+          <source src="/videos/Menu Pong.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -310,7 +310,7 @@ public struct DeathReason
         <a href="#netbolt" class="title">NetBolt</a>
         <h4>Made by Me</h4>
         <div></div>
-        <img class="icon-img" src="projects/NetBolt.png"/>
+        <img class="icon-img" src="/projects/NetBolt.png"/>
         <p>
           NetBolt is a project to implement a custom networking architecture to S&amp;box.
           It has features such as: networkable types, generics, delta updates, and bi-directional plus asynchronous reponse RPCs.
@@ -383,7 +383,7 @@ public NetworkedVector3 CopyOfPosition => Position;
           </pre>
         </p>
         <video controls width="600" height="338">
-          <source src="videos/NetBolt Networking.mp4" type="video/mp4">
+          <source src="/videos/NetBolt Networking.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -480,7 +480,7 @@ if ( Components.TryGetComponent&lt;ColorComponent&gt;( out var component ) )
           </code>
         </pre>
         <video controls width="600" height="338">
-          <source src="videos/NetBolt Components.mp4" type="video/mp4">
+          <source src="/videos/NetBolt Components.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -489,7 +489,7 @@ if ( Components.TryGetComponent&lt;ColorComponent&gt;( out var component ) )
         <a href="#entitypools" class="title">Entity Pools</a>
         <h4>Made by Me</h4>
         <div></div>
-        <img class="icon-img" src="projects/Entity Pools.png"/>
+        <img class="icon-img" src="/projects/Entity Pools.png"/>
         <p>
           This is a small library available on <a href="https://asset.party/gooman/entity_pools" class="reference">asset.party</a> that provides pooling mechanisms for S&amp;box entities.
           It features an API that works like C#s <a href="https://learn.microsoft.com/en-us/dotnet/api/system.buffers.arraypool-1?view=net-7.0" class="reference">ArrayPool&lt;T&gt;</a> API.
@@ -514,7 +514,7 @@ EntityPool&lt;MyEntity&gt;.Shared.Return( rentedEntity );
         <a href="#coroutines" class="title">Coroutines</a>
         <h4>Made by Me</h4>
         <div></div>
-        <img class="icon-img" src="projects/Coroutines.png"/>
+        <img class="icon-img" src="/projects/Coroutines.png"/>
         <p>
           This is another library available on <a href="https://asset.party/gooman/coroutines" class="reference">asset.party</a> that provides a main thread coroutine library much like <a href="https://docs.unity3d.com/2023.2/Documentation/Manual/Coroutines.html" class="reference">Unity's API</a>.
           It provides a number of default objects to delay your coroutines as well as the ability to create your own specialized objects.
@@ -560,7 +560,7 @@ IEnumerator&lt;ICoroutineStaller&gt; MyBehavior()
         <a href="#iconbrowser" class="title">Icon Browser Tool</a>
         <h4>Made by Me</h4>
         <div></div>
-        <img class="icon-img" src="projects/Icon Browser.png"/>
+        <img class="icon-img" src="/projects/Icon Browser.png"/>
         <p>
           The icon browser is a tool that allows you to view all material design icons available in S&box tools.
           It features a number of things:
@@ -575,7 +575,7 @@ IEnumerator&lt;ICoroutineStaller&gt; MyBehavior()
           You can view the project <a href="https://github.com/peter-r-g/Sbox-IconBrowser" class="reference">on GitHub here</a>.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Icon Browser.mp4" type="video/mp4">
+          <source src="/videos/Icon Browser.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -584,7 +584,7 @@ IEnumerator&lt;ICoroutineStaller&gt; MyBehavior()
         <a href="#ptd" class="title">Project Template Downloader Tool</a>
         <h4>Made by Me</h4>
         <div></div>
-        <img class="icon-img" src="projects/Template Downloader.png"/>
+        <img class="icon-img" src="/projects/Template Downloader.png"/>
         <p>
           The project template downloader is a tool that allows you to download S&amp;box templates from GitHub through their API.
           It features automatic searching of all S&amp;box template repositories, easy to install, update, and delete templates, and a quick shortcut from the Project Create dialog.
@@ -593,7 +593,7 @@ IEnumerator&lt;ICoroutineStaller&gt; MyBehavior()
           You can view the project <a href="https://github.com/peter-r-g/Sbox-ProjectTemplateDownloader" class="reference">on GitHub here</a>.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Project Template Downloader.mp4" type="video/mp4">
+          <source src="/videos/Project Template Downloader.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
@@ -602,7 +602,7 @@ IEnumerator&lt;ICoroutineStaller&gt; MyBehavior()
         <a href="#iag" class="title">Input Actions Generator Tool</a>
         <h4>Made by Me</h4>
         <div></div>
-        <img class="icon-img" src="projects/Input Actions Generator.png"/>
+        <img class="icon-img" src="/projects/Input Actions Generator.png"/>
         <p>
           This S&amp;box tool auto generates C# code for you based on the input settings of your gamemode project.
           It includes your input name, its category, and both the keyboard and gamepad default mapping.
@@ -612,7 +612,7 @@ IEnumerator&lt;ICoroutineStaller&gt; MyBehavior()
           You can view the project <a href="https://github.com/peter-r-g/Sbox-InputActionsGenerator" class="reference">on GitHub here</a>.
         </p>
         <video controls width="600" height="338">
-          <source src="videos/Input Actions Generator.mp4" type="video/mp4">
+          <source src="/videos/Input Actions Generator.mp4" type="video/mp4">
           Your browser does not support videos, sorry!
         </video>
       </div>
